@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    color: #777777
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(Poppins-Regular.ttf);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 70px;
+    background-color: white;
+}
+
+#navBar {
+    display: flex;
+}
+
+#navBar a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: poppins;
+    display: flex;
+    padding: 0 15px;
+}
+
+#homeTxt {
+    color: blue;
+}
+
+.underline:hover {
+    color: rgb(98, 0, 255);
+}
+
+.underline {
+    color: black
+}
+
+#personalImg {
+    display: flex;
+    padding-right: 350;
+}
+
+#mainSection {
+    display: flex;
+}
+
+#firstSection {
+    display: flex;
+    background-color: hsl(235, 73%, 97%);
+    height: 750px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#thisismeSide {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3px;
+    margin-left: 70px;
+}
+
+#thisismeTxt {
+    display: flex;
+    color: black;
+    font-family: poppins;
+    font-weight: 500px;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+#nameTxt {
+    display: flex;
+    font-size: 61px;
+    font-family: poppins;
+    font-weight: 700;
+    color: black;
+    line-height: 0.5em;
+    height: 2px;
+    padding-bottom: 5px;
+}
+
+#instructionPart {
+    display: flex;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 1.7;
+    color: #777777;
+    padding-bottom: 3px;
+}
+
+#discoverBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, rgb(132, 144, 255), rgb(98, 189, 252));
+    width: 170px;
+    height: 40px;
+}
+
+#discoverBtn a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: poppins;
+    font-size: smaller;
+}
+
+#imgSide {
+    display: flex;
+    margin-top: 136px;
+    padding-right: 127px;
+}
+
+#secoendSection {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 150px;
+}
+
+#hero {
+    display: flex;
+    height: 380px;
+    padding-right: 14px
+}
+
+#ABOUT {
+    display: flex;
+    flex-direction: column;
+}
+
+#aboutmeTxt {
+    display: flex;
+    font-size: medium;
+    font-family: poppins;
+}
+
+#personaldetailTxt {
+    display: flex;
+    font-size: 36px;
+    font-family: poppins;
+    font-weight: bolder;
+    color: black;
+    line-height: 1;
+}
+
+#detailBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, rgb(132, 144, 255), rgb(98, 189, 252));
+    width: 170px;
+    height: 40px;
+    margin-top: 8px;
+}
+
+#detailBtn a {
+    font-size: small;
+    text-decoration: none;
+    font-family: sans-serif, poppins;
+    font-weight: bold;
+    color: white;
+}
