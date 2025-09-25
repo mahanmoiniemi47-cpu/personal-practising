@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    color: #777777
+    background-color: lightgray
 }
 
 @font-face {
@@ -8,47 +8,7 @@ body {
     src: url(Poppins-Regular.ttf);
 }
 
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-    height: 70px;
-    background-color: white;
-}
-
-#navBar {
-    display: flex;
-}
-
-#navBar a {
     text-decoration: none;
-    font-size: 12px;
-    font-weight: 500;
-    font-family: poppins;
-    display: flex;
-    padding: 0 15px;
-}
-
-#homeTxt {
-    color: blue;
-}
-
-.underline:hover {
-    color: rgb(98, 0, 255);
-}
-
-.underline {
-    color: black
-}
-
-#personalImg {
-    display: flex;
-    padding-right: 350;
-}
 
 #mainSection {
     display: flex;
@@ -140,6 +100,8 @@ header {
     display: flex;
     flex-direction: column;
 }
+/* this is the header section of the site */
+/* این بخش هدر سایت میباشد */
 
 #aboutmeTxt {
     display: flex;
@@ -155,6 +117,8 @@ header {
     color: black;
     line-height: 1;
 }
+header {
+    background-color: white;
 
 #detailBtn {
     display: flex;
@@ -165,6 +129,34 @@ header {
     height: 40px;
     margin-top: 8px;
 }
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 11px 0;
+        margin-right: 23px;
+
+        img {
+            margin-right: 140px;
+        }
+
+        nav {
+            ul {
+                display: flex;
+                list-style-type: none;
+                gap: 30px;
+
+                li {
+                    a {
+                        padding: 1px;
+                        font-size: 12px;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+
+    }
 
 #detailBtn a {
     font-size: small;
